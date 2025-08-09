@@ -63,6 +63,7 @@ color: #2e2f42;
     color: #fff;
 }
 .hero-button{
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -83,7 +84,7 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.featue-list-text{   
+.feature-list-text{   
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -91,11 +92,46 @@ color: #2e2f42;
     color: #434455;
 }
 /* #endregion */
-/* #region Out Time */
-.Outtime-section{
+/* #region Our Time */
+.ourtime-section{
     background-color: #f4f4fd;
 }
-.Outtime-title{
+.ourtime-list{
+    background-color: #fff;
+}
+.ourtime-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.ourtime-list-item{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    
+
+}
+.ourtime-item-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+    
+}
+/* #endregion */
+/* #region Our Portfolio */
+.ourportfolio-section{
+    background-color: #fff;
+}
+.ourportfolio-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
@@ -103,23 +139,22 @@ color: #2e2f42;
     text-align: center;
     color: #2e2f42;
 }
-.Outtime-list-item{
+.ourportfolio-list-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
 }
-.Outtime-item-text{
+.ourportfolio-list-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
 }
 /* #endregion */
+
 /* #region Footer */
 .footer{
     background-color: #2e2f42;
