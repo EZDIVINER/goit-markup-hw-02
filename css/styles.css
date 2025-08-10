@@ -1,7 +1,22 @@
+:root {
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-navy-blue: #2e2f42;
+    --color-green: #31d0aa;
+    --color-slate: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-navy-blue-modal: #2e2f42;
+    --color-grey: #2e2f42;
+    --color-white: #ffffff;
+    --color-dairy: #fcfcfc;
+}
+
 body{
-font-family: "Roboto", sans-serif;
-color: #434455;
-background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    color: var(--color-slate);
+    background-color: var(--color-white);
 }
 
 ul, ol {
@@ -19,21 +34,21 @@ a{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5;
+        color: var(--color-iris);
 }
 .header-logo .logo-part{
-color: #2e2f42;
+color:var(--color-navy-blue);
 }
 .header-nav-link{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color:var(--color-navy-blue);
 }
 .header-nav-link:hover,
 .header-nav-link:focus{
-    color: #404bbf;
+    color: var(--color-ocean);
 }
 .address{
     font-style: normal;
@@ -42,17 +57,17 @@ color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color:var(--color-slate);
 }
 .address-list-link:hover, 
 .address-list-link:focus{
-    color: #404bbf;
+    color: var( --color-ocean);
 }
 /* #endregion */
-/* #region Hero */
+/* #region Hero (section1) */
 .hero{
     font-family: "Roboto", sans-serif;
-    background-color: #2e2f42;
+    background-color:var(--color-navy-blue);
 }
 .hero-title{
     font-weight: 700;
@@ -60,7 +75,7 @@ color: #2e2f42;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
+    color: var(--color-white);
 }
 .hero-button{
     cursor: pointer;
@@ -68,36 +83,36 @@ color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
-    background-color: #4d5ae5;
+    color: var(--color-white);
+    background-color: var(--color-iris);
 }
 .hero-button:hover, 
 .hero-button:focus{
-    background-color: #404bbf;
+    background-color: var( --color-ocean);
 }
 /* #endregion */
-/* #region Future */
+/* #region Future (section2) */
 .feature-list-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color:var(--color-navy-blue);
 }
 .feature-list-text{   
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color:var(--color-slate);
 }
 /* #endregion */
-/* #region Our Time */
+/* #region Our Time (section3)*/
 .ourtime-section{
-    background-color: #f4f4fd;
+    background-color: var(--color-cloud);
 }
 .ourtime-list{
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 .ourtime-title{
     font-weight: 700;
@@ -105,7 +120,8 @@ color: #2e2f42;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
+    color:var(--color-navy-blue);
+    text-transform: capitalize
 }
 .ourtime-list-item{
     font-weight: 500;
@@ -113,9 +129,17 @@ color: #2e2f42;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
+    color:var(--color-navy-blue);
     
 
+}
+.ourtime-item-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--color-navy-blue);
 }
 .ourtime-item-text{
     font-weight: 400;
@@ -123,51 +147,52 @@ color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #434455;
+    color:var(--color-slate);
     
 }
 /* #endregion */
-/* #region Our Portfolio */
+/* #region Our Portfolio (section4) */
 .ourportfolio-section{
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 .ourportfolio-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
+    color:var(--color-navy-blue);
+    text-transform: capitalize
 }
 .ourportfolio-list-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color:var(--color-navy-blue);
 }
 .ourportfolio-list-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color:var(--color-slate);
 }
 /* #endregion */
 
 /* #region Footer */
 .footer{
-    background-color: #2e2f42;
+    background-color:var(--color-navy-blue);
 }
 .footer-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
+    color: var(--color-cloud);
 }
 
 .footer-logo .logo-part{
-    color: #f4f4fd;
+    color: var(--color-cloud);
 }
 /* #endregion */
